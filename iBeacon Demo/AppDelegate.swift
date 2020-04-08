@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     {
         let UUID: UUID = iBeaconConfiguration.uuid
         
-        let beaconRegion: CLBeaconRegion = CLBeaconRegion(proximityUUID: UUID, identifier: "tw.darktt.beaconDemo")
+        let beaconRegion: CLBeaconRegion = CLBeaconRegion(proximityUUID: UUID, identifier: "com.bolotech.beacon")
         beaconRegion.notifyEntryStateOnDisplay = true
         
         self.locationManager.delegate = self

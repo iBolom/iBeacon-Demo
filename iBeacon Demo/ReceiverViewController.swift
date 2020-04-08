@@ -104,8 +104,9 @@ extension ReceiverViewController
         // This uuid must same as broadcaster.
         let UUID: UUID = iBeaconConfiguration.uuid
         
-        let beaconRegion: CLBeaconRegion = CLBeaconRegion(proximityUUID: UUID, identifier: "tw.darktt.beaconDemo")
+        let beaconRegion: CLBeaconRegion = CLBeaconRegion(proximityUUID: UUID, identifier: "com.bolotech.beacon")
         
+        self.location!.requestAlwaysAuthorization()
         self.location!.startMonitoring(for: beaconRegion)
     }
     
@@ -194,7 +195,7 @@ extension ReceiverViewController: CLLocationManagerDelegate
     {
         self.beacons = beacons 
         
-        print("\(self.beacons.first!)")
+        print("Beacons detected")
         
         manager.stopRangingBeacons(in: region)
         self.refreshControl?.endRefreshing()
