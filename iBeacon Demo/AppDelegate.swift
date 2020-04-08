@@ -24,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         beaconRegion.notifyEntryStateOnDisplay = true
         
         self.locationManager.delegate = self
+        self.locationManager.requestAlwaysAuthorization()
         self.locationManager.startMonitoring(for: beaconRegion)
         
         return true
