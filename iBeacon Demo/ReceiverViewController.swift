@@ -170,10 +170,7 @@ extension ReceiverViewController: CLLocationManagerDelegate
 {
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) 
     {
-        guard status == .authorizedAlways else {
-            print("******** User not authorized !!!!")
-            return
-        }
+        print("Did change authorization: \(status.rawValue )")
     }
     
     func locationManager(_ manager: CLLocationManager, didStartMonitoringFor region: CLRegion)
