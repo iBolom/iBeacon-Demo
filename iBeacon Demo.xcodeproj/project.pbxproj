@@ -136,7 +136,7 @@
 				TargetAttributes = {
 					522CD5801A7CB0EC00DBA5AD = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = SJV2APGW7E;
+						DevelopmentTeam = R6SC37N4S4;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -152,6 +152,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -334,7 +335,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = SJV2APGW7E;
+				DEVELOPMENT_TEAM = R6SC37N4S4;
 				INFOPLIST_FILE = "$(SRCROOT)/iBeacon Demo/Base.lproj/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -356,7 +357,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = SJV2APGW7E;
+				DEVELOPMENT_TEAM = R6SC37N4S4;
 				INFOPLIST_FILE = "$(SRCROOT)/iBeacon Demo/Base.lproj/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
