@@ -194,7 +194,6 @@ extension ReceiverViewController: CLLocationManagerDelegate
         
         print("Beacons detected")
         
-        manager.stopRangingBeacons(in: region)
         self.refreshControl?.endRefreshing()
         
         self.tableView.reloadData()
